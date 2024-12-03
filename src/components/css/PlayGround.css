@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Segoe UI1";
+  src: url("../../assests/fonts/font1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI2";
+  src: url("../../assests/fonts/font2.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI3";
+  src: url("../../assests/fonts/font3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Segoe UI4";
+  src: url("../../assests/fonts/font4.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+.preference-nav {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 1px solid #555;
+}
+
+.prefered-lang {
+  color: white;
+  padding: 5px 5px;
+  width: fit-content;
+  font-family: "Segoe UI2";
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.editor-container {
+  width: 100%;
+}
+
+.usercase-submit {
+  width: 100%;
+}
+
+.split2 {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 107px);
+}
+
+.monoco-editor-container {
+  height: calc(100% - 37px);
+}
+
+.gutter.gutter-vertical {
+  cursor: col-resize;
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 40 40 / var(--tw-bg-opacity));
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.usecases {
+  height: 100%;
+}
+
+.usecase-header {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.usecase-header p {
+  padding: 5px 5px;
+  color: #555;
+  margin-left: 15px;
+  cursor: pointer;
+  font-family: "Segoe UI2";
+}
+
+.uh-active {
+  color: white !important;
+  border-radius: 5px;
+}
+
+.use-cases {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 15px;
+  gap: 20px;
+}
+
+.case {
+  padding: 6px 14px;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Segoe UI2";
+}
+
+.in-out-container {
+  margin-left: 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.in-out-container p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Segoe UI2";
+}
+
+.in-out-container span {
+  font-family: "Spline Sans Mono, monospace";
+  padding: 15px 15px;
+  width: 90%;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: rgba(239, 241, 246, 0.75);
+  border-radius: 10px;
+}
+
+.use-cases-r {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 15px;
+  gap: 15px;
+  width: 100%;
+}
+
+.in-out-container-r {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 95%;
+}
+
+.in-out-container-r p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Segoe UI2";
+}
+
+.in-out-container-r span {
+  font-family: "Spline Sans Mono, monospace";
+  padding: 15px 15px;
+  width: 90%;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: rgba(239, 241, 246, 0.75);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.case-r{
+  padding: 6px 14px;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Segoe UI2";
+  margin-top: 15px;
+}
