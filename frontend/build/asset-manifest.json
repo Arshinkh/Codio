@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e178ef9.css",
+    "main.js": "/static/js/main.30e65973.js",
+    "static/media/fc.png": "/static/media/fc.d050e7c8f616920bc167.png",
+    "static/media/waveform.png": "/static/media/waveform.72759ef210bd6fd93bed.png",
+    "static/media/dwout.png": "/static/media/dwout.e540a6848b909ba93a8a.png",
+    "static/media/benecode.png": "/static/media/benecode.cfab473b971b67eab29d.png",
+    "static/media/font1.ttf": "/static/media/font1.1dc286eeecb0da1dd712.ttf",
+    "static/media/font3.ttf": "/static/media/font3.cba58501ca412000495c.ttf",
+    "static/media/font2.ttf": "/static/media/font2.b00928e669b804136004.ttf",
+    "static/media/font4.ttf": "/static/media/font4.45472284dc36b2486ce2.ttf",
+    "static/media/dwcode.png": "/static/media/dwcode.fc839d1847f6da61923a.png",
+    "static/media/product-code.png": "/static/media/product-code.f822635f9ae841b90e97.png",
+    "static/media/dev-img.png": "/static/media/dev-img.6535c33e063dfb78228a.png",
+    "index.html": "/index.html",
+    "main.6e178ef9.css.map": "/static/css/main.6e178ef9.css.map",
+    "main.30e65973.js.map": "/static/js/main.30e65973.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e178ef9.css",
+    "static/js/main.30e65973.js"
+  ]
+}
